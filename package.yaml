@@ -25,6 +25,7 @@ dependencies:
 - rio
 - http-client
 - http-client-tls
+- text
 
 library:
   source-dirs: src
