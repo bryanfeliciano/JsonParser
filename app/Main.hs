@@ -1,6 +1,7 @@
 module Main where
 
-import Lib
+import qualified Lib
+import Prelude
 
 main :: IO ()
-main = putStrLn "everything works"
+main = Lib.runMain
